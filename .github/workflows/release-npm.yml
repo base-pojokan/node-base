@@ -22,7 +22,11 @@ jobs:
           git config --global user.email "${{ secrets.GIT_DEPLOY_EMAIL }}"
       - name: Install Lerna
         run: npm i -g lerna
-      - run: npm ci
-      - run: npm run publish
+      - name: Install Package
+        run: npm ci
+      - name: Generate Library From Typescripts
+        run: lerna run tsc
+      - name: Publish Package by Lerna
+        run: lerna publish minor --yes
         env:
           NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}

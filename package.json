@@ -7,7 +7,7 @@
     "typescript": "^4.2.4"
   },
   "scripts": {
-    "publish": "lerna run tsc && lerna publish"
+    "publish": "lerna run tsc && lerna publish --yes"
   },
   "publishConfig": {
     "access": "public"

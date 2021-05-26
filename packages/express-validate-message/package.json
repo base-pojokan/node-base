@@ -1,6 +1,6 @@
 {
   "name": "@base-pojokan/express-validate-message",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Express Validate Message",
   "author": "JuniYadi <juniyadi94@gmail.com>",
   "homepage": "https://github.com/base-pojokan/node-base#readme",
@@ -27,6 +27,5 @@
   },
   "bugs": {
     "url": "https://github.com/base-pojokan/node-base/issues"
-  },
-  "dependencies": {}
+  }
 }

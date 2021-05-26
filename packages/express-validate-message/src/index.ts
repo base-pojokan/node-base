@@ -3,7 +3,7 @@
  */
 export const validationMessage = {
     contains: '',
-    equals: '',
+    equals: 'The :attribute must be equals to :value',
     isAlpha: 'The :attribute may only contain letters.',
     isAlphanumeric: 'The :attribute may only contain letters and numbers.',
     isDecimal: 'The :attribute must be a decimal.',

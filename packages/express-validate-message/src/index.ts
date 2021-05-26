@@ -3,6 +3,11 @@
  */
 export const validationMessage = {
     contains: '',
+
+    /**
+     * @param :attribute Default Attribute
+     * @param :value Change to Value
+     */
     equals: 'The :attribute must be equals to :value',
     isAlpha: 'The :attribute may only contain letters.',
     isAlphanumeric: 'The :attribute may only contain letters and numbers.',
@@ -30,7 +35,18 @@ export const validationMessage = {
     exist: 'The :attribute :value already exist.',
     isBoolean: 'The :attribute must be a boolean.',
     isDate: 'The :attribute must be a date.',
+
+    /**
+     * @param :attribute Default Attribute
+     * @param :min Change to Value
+     * @param :max Change to Value
+     */
     isLength: 'The :attribute must contain a minimum of :min and a maximum of :max',
+
+    /**
+     * @param :attribute Default Attribute
+     * @param :matches Change to Value
+     */
     matches: ':attribute must contain a minimum of :matches',
     isString: ":attribute must be string",
     isArray: ":attribute must be array"

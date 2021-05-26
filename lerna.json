@@ -3,21 +3,14 @@
   "command": {
     "publish": {
       "registry": "https://npm.pkg.github.com",
-      "ignoreChanges": [
-        "ignored-file",
-        "*.md"
-      ],
-      "message": "chore(release): publish %s"
+      "ignoreChanges": ["ignored-file", "*.md"],
+      "message": "chore(release): publish %s [skip ci]"
     },
     "bootstrap": {
       "ignore": "component-*",
-      "npmClientArgs": [
-        "--no-package-lock"
-      ]
+      "npmClientArgs": ["--no-package-lock"]
     }
   },
-  "packages": [
-    "packages/*"
-  ],
+  "packages": ["packages/*"],
   "version": "0.3.0"
 }

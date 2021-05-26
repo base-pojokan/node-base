@@ -10,6 +10,7 @@
     "publish": "lerna run tsc && lerna publish"
   },
   "publishConfig": {
-    "access": "public"
+    "access": "public",
+    "registry": "https://npm.pkg.github.com"
   }
 }
